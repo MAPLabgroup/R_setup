@@ -1,15 +1,10 @@
 #################### R Set-up script ####################
 
-#### Set working directories - Modify depending on the location of your data 
-
 '''
-Linux - data partition. This should be the same for both Linux workstations. Change 'your_username' to yours specifically
+Set working directory. This should be the same for both Linux workstations. Change 'your_username' to yours specifically
 We are using the file server below - accessble from Linux workstations
 '''
 setwd('/home/your_username/brown_lab')  
-
-# Mac home - Change 'your_username' to yours specifically
-#setwd('/Users/your_username/Documents/your_folder')
 
 # repo0 = "http://cran.us.r-project.org" # Original R repository if you want to save it as an object 
 
