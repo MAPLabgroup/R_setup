@@ -24,5 +24,5 @@ lapply(toInstall, library, character.only = TRUE)
 # I install ggplot seperately because it takes 10x longer than anything else. Easier debugging
 install.packages('ggplot2', dependencies=TRUE, repos='http://cran.rstudio.com/')
 #install.packages('Cairo','http://www.rforge.net/') # optional package for saving hi-res plots while using Windows. 
-#Mac and Linux automatically output and save hi-res graphics in R. Don't know why Windows doesn't. Uncomment above ling 
+#Mac and Linux automatically output and save hi-res graphics in R. Don't know why Windows doesn't. Uncomment above line
 #to use if you are running R and RStudio from windows. 
