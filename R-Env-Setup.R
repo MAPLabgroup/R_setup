@@ -13,7 +13,7 @@ setwd('/home/your_username/brown_lab')  # Linux
 Short list of more commonly used packages for data wrangling (doBy, dplyr) and plotting graphics (ggthemes etc.) and working with external 
 programs (rprime and R.matlab)
 ''' 
-pkg.list = c('ez', 'ggthemes', 'RColorBrewer', 'rprime', 'R.matlab', 'doBy', 'dplyr', 'psych' 'skimr', 'stringi', 'tidyr') 
+pkg.list = c('ez', 'ggthemes', 'RColorBrewer', 'rprime', 'R.matlab', 'doBy', 'dplyr', 'psych', 'skimr', 'stringi', 'tidyr') 
 doInstall <- TRUE  # Change to FALSE if you don't want packages installed.
 toInstall <- pkg.list
 
